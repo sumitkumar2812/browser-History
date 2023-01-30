@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-container {
+  background-color: #3367d6;
+  height: 9vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-heading {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: roboto;
+}
+.search-icon-container {
+  height: 25px;
+  width: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-color: #ececec;
+  border-width: 2px;
+  background-color: #2850a7;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.search-bar {
+  border-color: #ececec;
+  height: 25px;
+  width: 300px;
+  background-color: #2850a7;
+  border-width: 1px;
+}
+.search-container {
+  display: flex;
+}
+.bottom-container {
+  background-color: #ffffff;
+  height: 91vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.history-container {
+  background-color: #ffffff;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 6px 10px 0px #64748b;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name-and-url-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.time-para {
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: roboto;
+  color: #64748b;
+  text-align: center;
+}
+.logo-image {
+  height: 25px;
+  width: 30px;
+  padding-right: 10px;
+}
+.title-para {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: roboto;
+  color: #475569;
+  text-align: center;
+}
+.domain-para {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: roboto;
+  color: #64748b;
+  text-align: center;
+}
+
+.delete-icon {
+  height: 21px;
+  width: 25px;
+  padding-right: 10px;
+}
+.delete-button {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
